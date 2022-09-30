@@ -58,11 +58,11 @@
     
     </table>
 
-    <button id="solucion" >Ver solución</button>
+    <?php
+        require "phpCss/repeatPhp.php";
+        enviar("js/nivel1.js");
+    ?>
 
-    <div id="prueba">
 
-    </div>
-    <script src="js/nivel1.js"></script>
 </body>
 </html>

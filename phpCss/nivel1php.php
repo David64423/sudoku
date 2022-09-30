@@ -20,9 +20,8 @@ body{
 }
 
 .nF{
-    display:flex;
-    justify-content:center;
     border:1px solid black;
+    text-align:center;
 }
 
 .lugares{
