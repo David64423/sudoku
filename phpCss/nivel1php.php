@@ -19,4 +19,15 @@ body{
     background-color: var(--white);
 }
 
+.nF{
+    display:flex;
+    justify-content:center;
+    border:1px solid black;
+}
+
+.lugares{
+}
+
+
+
 </style>

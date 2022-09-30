@@ -14,48 +14,55 @@
     
     <table>
         <tr>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input  class="lugares"  min=1 max=9 type="number" name="" id=""> </td>
+            <td class="nF"> 1 </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td class="nF"> 4 </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
         </tr>
 
 
         <tr>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td class="nF"> 1 </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
         </tr>
 
 
         <tr>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
         </tr>
 
         <tr>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
+            <td class="nF"> 4 </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td class="nF"> 3 </td>
         </tr>
 
         <tr>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td class="nF"> 4 </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td class="nF"> 2 </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
         </tr>
 
     
     </table>
+
+    <button id="solucion" >Ver solución</button>
+
+    <div id="prueba">
+
+    </div>
+    <script src="js/nivel1.js"></script>
 </body>
 </html>
