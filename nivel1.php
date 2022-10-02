@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <?php
-    require "phpCss/nivel1php.php";
+    require "phpRedundancia/niveles.php";
     ?>
 
 </head>
@@ -59,7 +59,7 @@
     </table>
 
     <?php
-        require "phpCss/repeatPhp.php";
+        require "phpRedundancia/repeatPhp.php";
         enviar("js/nivel1.js");
     ?>
 
