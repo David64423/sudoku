@@ -11,26 +11,13 @@
 
 </head>
 <body>
-    <div id="menu">
-            <div class="elementoMenu" >
-                <a class="home" href=""><img id="home" title="Inicio"  src="img/home.png" alt=""></a>
-            </div>
+   <?php
+        require "phpRedundancia/menu.php";
+        menu("nivel2.php");
+   ?>
 
-            <div class="elementoMenu">
-                <a href="niveles.php"> <p title="Select Level" >ELEGIR NIVEL</p> </a>
-            </div>
-
-        <!--
-            <div class="elementoMenu">
-                <a href=""> <p>Acerca de nosotros</p> </a>
-            </div>
-        -->    
-            <div class="elementoMenu">
-            <a href="" class="nextLevel" title="Siguiente Nivel"> <img id="nextLevel" src="img/siguienteNivel.png" alt=""></a>
-
-            </div>
-        
-    </div>
+<div id="juego" >
+    <div id="container" >
 
     <p id="numeroNivel">NIVEL 1</p>
     
@@ -79,6 +66,14 @@
 
     
     </table>
+
+    </div>
+
+<?php
+require "phpRedundancia/estrellas.php";
+estrellas();
+?>
+</div>
 
     <?php
         require "phpRedundancia/repeatPhp.php";

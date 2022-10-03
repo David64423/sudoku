@@ -9,7 +9,13 @@
     ?>
 </head>
 <body>
-
+<?php
+        require "phpRedundancia/menu.php";
+        menu("nivel3.php");
+   ?>
+<div id="juego">
+<div id="container" >
+<p id="numeroNivel">NIVEL 2</p>
     <table>
         <tr>
             <td class="nF"> 5</td>
@@ -72,6 +78,13 @@
         </tr>
     
     </table>
+</div>
+
+<?php
+require "phpRedundancia/estrellas.php";
+estrellas();
+?>
+</div>
     <?php
         require "phpRedundancia/repeatPhp.php";
         enviar("js/nivel2.js");

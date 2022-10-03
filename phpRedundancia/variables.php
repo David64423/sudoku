@@ -8,7 +8,7 @@
     --c6:mediumOrchid;
 
 
-    --bp:1px solid black; /* Esto significa "borde de prueba, es decir seria un borde que sirve únicamente con motivo de desarrollo
+    --bp:none; /* Esto significa "borde de prueba, es decir seria un borde que sirve únicamente con motivo de desarrollo
             y no se vera en el producto final"*/
     
     --bf:1px solid black;  /* Esto significa borde fijo, es decir que se vera en el producto final */ 

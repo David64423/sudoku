@@ -12,13 +12,13 @@
 <h1>Seleccion de niveles</h1>
     <section class="flex-container">
         <div class="caja">
-            <a href="">Nivel 1</a>
+            <a href="nivel1.php">Nivel 1</a>
         </div>
         <div class="caja">
-            <a href="">Nivel 2</a>
+            <a href="nivel2.php">Nivel 2</a>
         </div>
         <div class="caja">
-            <a href="">Nivel 3</a>
+            <a href="nivel3.php">Nivel 3</a>
         </div>
        
     </section>

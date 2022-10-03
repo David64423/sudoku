@@ -4,6 +4,8 @@
 <?php
     require "phpRedundancia/variables.php";
 ?>
+
+
 table,td{
     border:1px solid black;
     width:50vw;
@@ -11,7 +13,8 @@ table,td{
 }
 
 body{
-    background-color: var(--c3);
+    background-color: var(--c5);
+
 }
 
 .nF{
@@ -42,7 +45,9 @@ body{
     height: 15vh;
     border: var(--bf);
     margin:1px;
-    background-color: var(--c5);
+    background-color: blueviolet;
+    /*
+    background-color: var(--c5); */
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -78,7 +83,7 @@ a{
 }
 
 a:hover{
-    color:blue;
+    color:red;
     font-size:2.5vw;
 }
 
@@ -96,6 +101,39 @@ a:hover{
 #nextLevel:hover{
     height:110%;
     width:110%;
+}
+
+
+#container{
+    border: var(--bp);
+    width:60%;
+    background-color:var(--c3);
+}
+
+#containerDerecha{
+    border: var(--bp);
+    width:39.6%;
+    height:70vh;
+    display:flex;
+    
+}
+
+#juego{
+    display:flex;
+    flex-direction: row;
+}
+
+.estrella{
+    padding-top:6px;
+    width:6vw;
+    height:7vh;
+    background-color:var(--c1);
+    cursor:pointer;
+}
+
+#sistemaDeEstrellas{
+    display:flex;
+
 }
 
 </style>
