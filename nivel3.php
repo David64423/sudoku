@@ -143,7 +143,7 @@
 </div>
 <?php
 require "phpRedundancia/estrellas.php";
-estrellas();
+estrellas("niveles.php");
 ?>
 </div>
 

@@ -1,5 +1,5 @@
 <?php
-function estrellas(){ ?>
+function estrellas($direccion){ ?>
     <div id="containerDerecha">
     <div id="sistemaDeEstrellas">
 
@@ -20,6 +20,14 @@ function estrellas(){ ?>
             <img class="estrella" id="estrella5" src="img/estrella.png" alt="estrellas para calificar:numero 6">
         </div>
 
+    </div>
+
+    <div id="ganaste">
+
+    <p  id="nivelSuperado" class="contenidoGanaste">NIVEL SUPERADO!!!</p>
+    <a id="linkNivelSuperado" class="contenidoGanaste" href="<?php echo $direccion  ?>">SIGUIENTE NIVEL</a>
+    <img class="contenidoGanaste" src="" alt="">
+    
     </div>
     </div>
 <?php } ?>

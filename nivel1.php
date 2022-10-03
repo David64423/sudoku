@@ -71,7 +71,7 @@
 
 <?php
 require "phpRedundancia/estrellas.php";
-estrellas();
+estrellas("nivel2.php");
 ?>
 </div>
 

@@ -1,4 +1,5 @@
-export function verificar(lugares, valoresCorrectos,ganaste){
+let elementosCuandoGanas = document.getElementById("contenidoGanaste");
+export function verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas){
     let contador=0;
     let i=0;
     while(i<lugares.length){
@@ -12,7 +13,7 @@ export function verificar(lugares, valoresCorrectos,ganaste){
 }
 
 if(contador==lugares.length){
-    ganaste.innerText="Ganaste";
+    mostrarElementosCuandoGanas();
 }
 }
 
@@ -22,8 +23,16 @@ export function main(valores){
     let valoresCorrectos = valores;
     let solucion = document.getElementById("solucion");
     valoresCorrectos = valoresCorrectos.split("");
+    let nivelSuperado = document.getElementById("nivelSuperado");
+    let linkNivelSuperado = document.getElementById("linkNivelSuperado");
+
+    function mostrarElementosCuandoGanas(){
+       nivelSuperado.style.display="block"; 
+       linkNivelSuperado.style.display="block";
+    }
     
-    solucion.addEventListener('click', ()=>{verificar(lugares, valoresCorrectos,ganaste)});
+    
+    solucion.addEventListener('click', ()=>{verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas)});
     }
 
 

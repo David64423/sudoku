@@ -82,7 +82,7 @@
 
 <?php
 require "phpRedundancia/estrellas.php";
-estrellas();
+estrellas("nivel3.php");
 ?>
 </div>
     <?php

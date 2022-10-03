@@ -115,12 +115,16 @@ a:hover{
     width:39.6%;
     height:70vh;
     display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: space-between;
     
 }
 
 #juego{
     display:flex;
     flex-direction: row;
+    flex-wrap:wrap;
 }
 
 .estrella{
@@ -134,6 +138,21 @@ a:hover{
 #sistemaDeEstrellas{
     display:flex;
 
+}
+
+#ganaste{
+    border:var(--bp);
+    height:100%;
+    width:100%;
+    background-color: var(--c4);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: space-between;
+}
+
+.contenidoGanaste{
+display:none;
 }
 
 </style>
