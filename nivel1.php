@@ -11,8 +11,30 @@
 
 </head>
 <body>
+    <div id="menu">
+            <div class="elementoMenu" >
+                <a class="home" href=""><img id="home" title="Inicio"  src="img/home.png" alt=""></a>
+            </div>
+
+            <div class="elementoMenu">
+                <a href="niveles.php"> <p title="Select Level" >ELEGIR NIVEL</p> </a>
+            </div>
+
+        <!--
+            <div class="elementoMenu">
+                <a href=""> <p>Acerca de nosotros</p> </a>
+            </div>
+        -->    
+            <div class="elementoMenu">
+            <a href="" class="nextLevel" title="Siguiente Nivel"> <img id="nextLevel" src="img/siguienteNivel.png" alt=""></a>
+
+            </div>
+        
+    </div>
+
+    <p id="numeroNivel">NIVEL 1</p>
     
-    <table>
+    <table style="margin-top:10vh; margin-left:1vw;">
         <tr>
             <td> <input  class="lugares"  min=1 max=9 type="number" name="" id=""> </td>
             <td class="nF"> 1 </td>
