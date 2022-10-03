@@ -15,7 +15,7 @@
         <form >
             <div id="aa">Nombre de usuario:<br><input id="input" type="text" name="usuario"></div><br><br>
             <div id="aa">Contraseña:<br><input id="input" type="text" name="contra"></div><br>
-            <ul><input id="iniciar" type="submit" value="Ingresar"></ul>    
+            <ul><input id="iniciar" formaction="niveles.php" type="submit" value="Ingresar" href="niveles.php"></ul>    
         </form>
     </div>
     </section>

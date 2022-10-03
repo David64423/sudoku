@@ -83,7 +83,7 @@ a{
 }
 
 a:hover{
-    color:red;
+    color:orange;
     font-size:2.5vw;
 }
 
