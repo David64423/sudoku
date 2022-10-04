@@ -10,7 +10,7 @@
     <ins><h1 style="text-align:center;">ELIJA UN JUEGO</h1></ins>
     <section style="background-color:Plum;">
     <div style="text-align: center;">
-    <form action=nivel1.php>
+    <form action=niveles.php>
     <button style="text-align:center;width:240px">Sudoku<img src="img/sudoku.jpeg"style="width:200px"></button>
 </form>
 
