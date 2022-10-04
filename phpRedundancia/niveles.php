@@ -30,13 +30,14 @@ body{
     align-self:center;
 }
 #home{
-    height:100%;
-    width:100%;
+    height:150%;
+    width:200%;
+    transform: translate(-1vw,-2.8vh);
 }
 
 #home:hover{
-    height:110%;
-    width:110%;
+    height:170%;
+    width:220%;
 }
 
 
@@ -45,7 +46,7 @@ body{
     height: 15vh;
     border: var(--bf);
     margin:1px;
-    background-color: blueviolet;
+    background-color: #9032bb;
     /*
     background-color: var(--c5); */
     display:flex;
@@ -85,6 +86,10 @@ a{
 a:hover{
     color:orange;
     font-size:2.5vw;
+}
+
+a:active{
+    color:blue;
 }
 
 .nextLevel{
@@ -153,6 +158,26 @@ a:hover{
 
 .contenidoGanaste{
 display:none;
+}
+
+#solucion{
+    width: 8vw;
+    height:7vh;
+    margin-left:20%;
+    border-radius:25px;
+    background-color:red;
+    color:white;
+    cursor:pointer;
+}
+
+#solucion:hover{
+    color:white;
+    background-color:blue;
+}
+
+#solucion:active{
+    color:white;
+    background-color:blueviolet;
 }
 
 </style>
