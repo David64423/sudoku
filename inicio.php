@@ -8,7 +8,7 @@
 </head>
 <body style="background-color:Gainsboro">
     <ins>
-        <div class="elementoMenu"><a class="home" href="inicio.php"><img id="home" title="Inicio"  src="img/logo3.png" alt=""></a></div>
+        <div style="text-align:center;" class="elementoMenu"><a  class="home" href="inicio.php"><img id="home" style="width: 10vw;" title="Inicio"  src="img/logo3.png" alt=""></a></div>
         <h1 style="text-align:center;">ELIJA UN JUEGO</h1></ins>
     <section style="background-color:Plum;">
     <div style="text-align: center;">

@@ -25,7 +25,7 @@ body{
 }
 
 .home{
-    width:40%;
+    width:20%;
     height:60%;
     align-self:center;
 }

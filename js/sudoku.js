@@ -4,7 +4,6 @@ export function verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas)
     let i=0;
     while(i<lugares.length){
         if(valoresCorrectos[i] != lugares[i].value){
-    
         }
         else{
             contador++;
