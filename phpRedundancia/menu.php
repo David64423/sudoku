@@ -3,7 +3,7 @@ function menu($direccion){ ?>
 
 <div id="menu">
             <div class="elementoMenu" >
-                <a class="home" href="inicio.php"><img id="home" title="Inicio"  src="img/home.png" alt=""></a>
+                <a class="home" href="inicio.php"><img id="home" title="Inicio"  src="img/logo3.png" alt=""></a>
             </div>
 
             <div class="elementoMenu">
