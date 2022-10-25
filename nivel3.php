@@ -151,7 +151,9 @@ estrellas("niveles.php");
         require "phpRedundancia/repeatPhp.php";
         enviar("js/nivel3.js");
     ?>
-    
+<div id=gifcoca>
+    <img src="https://38.media.tumblr.com/349056a60ddceaaefe6e13fb9586c54c/tumblr_nlsbnriImw1uo0zoxo1_1280.gif" alt="publicidad">
+</div>
     
 </body>
 </html>
