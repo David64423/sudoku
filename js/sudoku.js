@@ -4,10 +4,12 @@ export function verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas)
     let i=0;
     while(i<lugares.length){
         if(valoresCorrectos[i] != lugares[i].value){
-    
+            
+            //lugares[i].style.backgroundColor="red";
         }
         else{
             contador++;
+            //lugares[i].style.backgroundColor="white";
         }
     i++;
 }
@@ -33,6 +35,22 @@ export function main(valores){
     
     
     solucion.addEventListener('click', ()=>{verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas)});
+    }
+
+
+
+    export function rellenarDiagonal(lugares,valores,lugaresQueVamosALlenar){
+        let i=0;
+    
+        while(i< valores.length){
+            lugares[lugaresQueVamosALlenar[i]].value=valores[i];
+            lugares[lugaresQueVamosALlenar[i]].style.color="red";
+            lugares[lugaresQueVamosALlenar[i]].style.fontFamily="impact";
+            lugares[lugaresQueVamosALlenar[i]].style.fontSize="2vw";
+            lugares[lugaresQueVamosALlenar[i]].min=valores[i];
+            lugares[lugaresQueVamosALlenar[i]].max=valores[i];
+            i++;
+        }
     }
 
 
