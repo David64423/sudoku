@@ -5,14 +5,27 @@ export function verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas)
     while(i<lugares.length){
         if(valoresCorrectos[i] != lugares[i].value){
             
-            //lugares[i].style.backgroundColor="red";
+            lugares[i].style.backgroundColor="red";
+           // function cambiarColor(){
+                 
+           // }
+
+
+            //setTimeout(cambiarColor,10000);
+
         }
         else{
             contador++;
-            //lugares[i].style.backgroundColor="white";
+            lugares[i].style.backgroundColor="white";
         }
     i++;
 }
+    i=0;
+    setTimeout(()=>{while(i<lugares.length){
+        lugares[i].style.backgroundColor="white";
+        i++;
+    }},2000);
+
 
 if(contador==lugares.length){
     mostrarElementosCuandoGanas();
