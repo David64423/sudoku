@@ -23,7 +23,7 @@
     
     <table style="margin-top:10vh; margin-left:1vw;">
         <tr>
-            <td> <input  class="lugares"  min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input  class="lugares"  min=1 max=9 type="number" name="" id="" readonly > </td>
             <td > <input  class="lugares"  min=1 max=9 type="number" name="" id="">  </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
             <td> <input  class="lugares"  min=1 max=9 type="number" name="" id=""> </td>
@@ -33,7 +33,7 @@
 
         <tr>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id="" readonly> </td>
             <td> <input  class="lugares"  min=1 max=9 type="number" name="" id="">  </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
@@ -43,7 +43,7 @@
         <tr>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id="" readonly> </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
         </tr>
@@ -52,7 +52,7 @@
             <td> <input  class="lugares"  min=1 max=9 type="number" name="" id="">  </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
-            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id="" readonly> </td>
             <td> <input  class="lugares"  min=1 max=9 type="number" name="" id="">  </td>
         </tr>
 
@@ -61,7 +61,7 @@
             <td> <input  class="lugares"  min=1 max=9 type="number" name="" id="">  </td>
             <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
             <td> <input  class="lugares"  min=1 max=9 type="number" name="" id="">  </td>
-            <td> <input class="lugares" min=1 max=9 type="number" name="" id=""> </td>
+            <td> <input class="lugares" min=1 max=9 type="number" name="" id="" readonly> </td>
         </tr>
 
     

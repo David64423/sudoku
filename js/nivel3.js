@@ -26,8 +26,7 @@ else{
     main("876493125359182467142567389497625813523814976618739254781946532935278641264351798");
     rellenarDiagonal(lugares,[8,5,2,6,1,9,5,4,8],lugaresRellenar);
 }
-let a=[0,1,2,3];
-a.length;
+
 
 
 funcionEstrellas();

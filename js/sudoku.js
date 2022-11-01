@@ -49,6 +49,7 @@ export function main(valores){
             lugares[lugaresQueVamosALlenar[i]].style.fontSize="2vw";
             lugares[lugaresQueVamosALlenar[i]].min=valores[i];
             lugares[lugaresQueVamosALlenar[i]].max=valores[i];
+        
             i++;
         }
     }
