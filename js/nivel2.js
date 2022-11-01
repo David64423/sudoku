@@ -1,6 +1,7 @@
 import {verificar} from './sudoku.js';
 import {main} from './sudoku.js';
 import {funcionEstrellas} from './sudoku.js';
+import {rellenarDiagonal} from './sudoku.js';
 
 let lugares = document.getElementsByClassName("lugares");
 
