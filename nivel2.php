@@ -18,65 +18,71 @@
     <div id="juego">
         <div id="container">
             <p id="numeroNivel">NIVEL 2</p>
+            <style> 
+                <?php
+                     require "phpRedundancia/styleBordes.php";
+                ?>
+  
+            </style>
             <table>
                 <tr>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeI bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
+                    <td class="bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA bordeI"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
                 </tr>
 
 
                 <tr>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeI bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
+                    <td class="bordeAb bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeI bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeD bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
                 </tr>
 
 
 
                 <tr>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeI bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
+                    <td class="bordeA bordeI"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
                 </tr>
 
 
                 <tr>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeI bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeD bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeI bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
+                    <td class="bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
                 </tr>
 
 
                 <tr>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeI bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeA bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
                     <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
                     <td> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
                 </tr>
 
 
                 <tr>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
-                    <td> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
+                    <td class="bordeI bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb bordeD"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id=""> </td>
+                    <td class="bordeD bordeAb"> <input min=1 max=9 class="lugares" type="number" name="" id="" readonly> </td>
                 </tr>
 
             </table>

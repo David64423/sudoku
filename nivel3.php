@@ -16,16 +16,62 @@
 <div id="juego">
 <div id="container" >
 <p id="numeroNivel">NIVEL 3</p>
+<style> 
+  <?php
+        require "phpRedundancia/styleBordes.php";
+  ?>
+  
+</style>
     <table>
         <tr>
+                <td class="bordeI bordeA"> <input  max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
+                <td class="bordeA"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeD bordeA"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeI bordeA"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td class="bordeA"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeA bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+
+        </tr>
+
+
+        <tr>
+                <td class="bordeI"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
                 <td> <input  max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeI"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+
+        </tr>
+
+        <tr>
+                <td class="bordeAb bordeI"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb bordeI"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td class="bordeAb"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+
+        </tr>
+
+        <tr>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeA bordeI"> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
+                <td class="bordeA"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeA bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
 
         </tr>
@@ -33,108 +79,68 @@
 
         <tr>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeI"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
+                <td class="bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+
+        </tr>
+
+        <tr>
+                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeI bordeAb"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+
+        </tr>
+
+
+        <tr>
+                <td class="bordeI bordeA"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td class="bordeA"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeD bordeA"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeI bordeA"> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly></td>
+                <td class="bordeA"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeA bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+
+        </tr>
+
+
+        <tr>
+                <td class="bordeI"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeD"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeI"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
                 <td> <input  max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td class="bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
 
         </tr>
 
         <tr>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-
-        </tr>
-
-        <tr>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-
-        </tr>
-
-
-        <tr>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td class="bordeAb bordeI"> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
+                <td class="bordeAb"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb bordeD"> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
                 <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-
-        </tr>
-
-        <tr>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-
-        </tr>
-
-
-        <tr>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id="" readonly></td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-
-        </tr>
-
-
-        <tr>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-
-        </tr>
-
-        <tr>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""></td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
-                <td> <input  max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
+                <td class="bordeAb bordeI"> <input  max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb">  <input max=9 min=1 class="lugares" type="number" name="" id=""> </td>
+                <td class="bordeAb bordeD"> <input  max=9 min=1 class="lugares" type="number" name="" id="" readonly> </td>
 
         </tr>
 
