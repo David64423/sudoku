@@ -1,14 +1,22 @@
+:root{
+    --borde:4px solid black;
+}
+
+table{
+    background-color:black;
+}
+
 .bordeD{
-        border-right: 4px solid green;
+        border-right:var(--borde);
   }
 
   .bordeI{
-        border-left: 4px solid green;
+        border-left: var(--borde);
   }
 
   .bordeA{
-        border-top: 4px solid green;
+        border-top: var(--borde);
   }
   .bordeAb{
-        border-bottom: 4px solid green;
+        border-bottom: var(--borde);
   }
