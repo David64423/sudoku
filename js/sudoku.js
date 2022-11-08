@@ -2,10 +2,19 @@ let elementosCuandoGanas = document.getElementById("contenidoGanaste");
 export function verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas){
     let contador=0;
     let i=0;
+    let tiempo=200;
     while(i<lugares.length){
         if(valoresCorrectos[i] != lugares[i].value){
             
-            lugares[i].style.backgroundColor="red";
+            function intervalo(i){
+            
+            
+                setTimeout(()=>{lugares[i].style.backgroundColor="red";},tiempo);
+
+            }
+            intervalo(i);
+            tiempo=tiempo+200;
+            
            // function cambiarColor(){
                  
            // }
@@ -24,7 +33,7 @@ export function verificar(lugares, valoresCorrectos,mostrarElementosCuandoGanas)
     setTimeout(()=>{while(i<lugares.length){
         lugares[i].style.backgroundColor="white";
         i++;
-    }},2000);
+    }},tiempo+1200);
 
 
 if(contador==lugares.length){
@@ -139,9 +148,13 @@ estrellas[4].addEventListener('click',()=>{seleccionarEstrella(4); });
 
 export function showSolution(lugares,solucion){
     let i=0;
+    let tiempo=300;
     solucion = solucion.split("");
     while(i< lugares.length){
-        lugares[i].value=solucion[i];
+        function relleno(i){
+        setTimeout(()=>{lugares[i].value=solucion[i]},tiempo);
+        tiempo=tiempo+200;}
+        relleno(i); //Comentar esta linea en caso que no guste
         i++;
     }
 }
