@@ -11,6 +11,9 @@ table,td{
     width:50vw;
     height:10vh;
 }
+.lugares{
+    background-color: white;
+}
 
 body{
     background-color: var(--c5);

@@ -153,7 +153,7 @@ export function showSolution(lugares,solucion){
     while(i< lugares.length){
         function relleno(i){
         setTimeout(()=>{lugares[i].value=solucion[i]},tiempo);
-        tiempo=tiempo+200;}
+        tiempo=tiempo+20;}
         relleno(i); //Comentar esta linea en caso que no guste
         i++;
     }
