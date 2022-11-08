@@ -135,3 +135,14 @@ estrellas[4].addEventListener('click',()=>{seleccionarEstrella(4); });
 
 }; 
 
+
+
+export function showSolution(lugares,solucion){
+    let i=0;
+    solucion = solucion.split("");
+    while(i< lugares.length){
+        lugares[i].value=solucion[i];
+        i++;
+    }
+}
+

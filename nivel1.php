@@ -20,6 +20,13 @@
     <div id="container" >
 
     <p id="numeroNivel">NIVEL 1</p>
+
+    <style> 
+                <?php
+                     require "phpRedundancia/styleBordes.php";
+                ?>
+  
+            </style>
     
     <table style="margin-top:10vh; margin-left:1vw;">
         <tr>

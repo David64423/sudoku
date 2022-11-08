@@ -30,4 +30,5 @@ function estrellas($direccion){ ?>
     
     </div>
     </div>
+    <button id="showSolutions">Ver solucion</button>
 <?php } ?>
