@@ -1,0 +1,1 @@
+Este fue un trabajo entregable para mi profesora de mi instituto en la carrera Analisis de Sistemas. El objetivo de este trabajo era probar la metodología Scrum en grupos de no menos de 5 personas. El trabajo tiene un enfoque puramente de Front End ya que no tuvimos mucho tiempo para su realización. Las tecnologías usadas fueron PHP, Css y JavaScript.
